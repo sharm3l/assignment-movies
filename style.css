@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 12px 24px;
+  font: 16px verdana;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+ul,
+li,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+nav {
+  margin-bottom: 24px;
+}
+
+label {
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+li {
+  display: inline-block;
+  flex-grow: 1;
+  margin: 0 0 24px;
+}
+
+li a {
+  display: inline-block;
+  flex: 1;
+}
+
+li a img {
+  width: auto;
+}
+
+input {
+  margin: 7px;
+}

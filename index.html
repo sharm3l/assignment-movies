@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Film finder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Winc Film Finder</h1>
+    <nav>
+      <input type="text" id="type-film"/><br>
+      <input
+        type="radio"
+        id="latest-movies"
+        name="film-filter"
+        value="latest-movies"
+      />
+      <label for="latest-movies">Latest movies, 2014 or newer</label>
+      <input type="radio" id="avenger" name="film-filter" value="avenger" />
+      <label for="avenger">Avenger movies</label>
+      <input type="radio" id="x-men" name="film-filter" value="x-men" />
+      <label for="x-men">X-Men movies</label>
+      <input type="radio" id="princess" name="film-filter" value="princess" />
+      <label for="princess">Princess movies</label>
+      <input type="radio" id="batman" name="film-filter" value="batman" />
+      <label for="batman">Batman movies</label>
+    </nav>
+    <main>
+      <ul id="moviesList"></ul>
+    </main>
+    <script src="index.js"></script>
+    <script src="index1.js"></script>
+  </body>
+</html>
